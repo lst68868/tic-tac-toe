@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
     width: 500px;
     height: 500px;
     border: 1px solid black;
@@ -31,3 +31,22 @@ button {
     padding: 30px;
     display: inline-block;
   }
+
+#reset {
+    background-color: #a8a8a8;
+    color: #FFFFFF;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#reset:hover{
+    background-color: #FFFFFF;
+    color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+}
+#reset:clicked{
+    background-color: #FFFFFF;
+    color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+}
